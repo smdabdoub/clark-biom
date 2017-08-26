@@ -1,5 +1,8 @@
 clark-biom
 ===========
+.. image:: https://img.shields.io/travis/smdabdoub/clark-biom.svg?style=plastic
+    :target: https://travis-ci.org/smdabdoub/clark-biom
+    :alt: Travis CI build status
 
 Create BIOM-format tables (http://biom-format.org) from CLARK output 
 (http://clark.cs.ucr.edu/) for use with downstream tools such as
