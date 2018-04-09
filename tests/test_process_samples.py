@@ -6,7 +6,7 @@ from textwrap import dedent as twdd
 import unittest
 
 import clark_biom as cb
-from test.test_parsing import prep_clark_input
+from tests.test_parsing import prep_clark_input
 
 
 
