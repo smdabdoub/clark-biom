@@ -74,20 +74,20 @@ Usage examples
 
 1. Basic usage with default parameters::
 
-    $ clark-biom.py S1.txt S2.txt
+    $ clark-biom S1.txt S2.txt
 
   This produces a compressed BIOM 2.1 file: table.biom
   with sample IDs: S1, S2.
 
 2. BIOM v1.0 output::
 
-    $ clark-biom.py S1.txt S2.txt --fmt json
+    $ clark-biom S1.txt S2.txt --fmt json
 
   Produces a BIOM 1.0 file: table.biom
 
 3. Compressed TSV output::
 
-    $ clark-biom.py S1.txt S2.txt --fmt tsv --gzip -o table.tsv
+    $ clark-biom S1.txt S2.txt --fmt tsv --gzip -o table.tsv
 
   Produces a TSV file: table.tsv.gz
 
