@@ -1,0 +1,2 @@
+include *.rst LICENSE .travis.yml
+recursive-include tests *.py
